@@ -1,13 +1,13 @@
 # GSA inventory app spike
 
-This is just copied from the readme of the previous work... So take with a big pinch of salt 
-
 ## Quick Start
-To sample the application run:
-`yarn && yarn start`
+To sample the application:
 
-You should see:
-![](https://imgur.com/a/Nbaeb3t)
+1. Run an instance of vanilla ckan on port 5000. (You can use a [source install](https://docs.ckan.org/en/2.8/maintaining/installing/install-from-source.html) or the [OKF docker-ckan](https://github.com/okfn/docker-ckan))
+
+2. Once CKAN is running on port 5000 run:
+`yarn && yarn start` 
+You should see:= ![](https://imgur.com/a/Nbaeb3t)
 
 ## Bundling the app
 To output as a single file (best for compatibility with fanstatic and CKAN) run:
